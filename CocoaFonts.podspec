@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/CocoaFonts/CocoaFonts.git", :tag => "#{s.version}" }
   s.source_files = 'Classes', 'CocoaFonts/*.swift'
   s.resources = "CocoaFonts/Fonts/**/*.ttf"
-  s.framework  = 'UIKit'
+  # s.framework  = 'UIKit'
   # s.requires_arc = true
 end
