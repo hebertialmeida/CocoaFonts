@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIFont {
+extension CocoaFonts {
     func latoBlackOfSize(size: CGFloat) -> UIFont {
         return UIFont(name: "Lato-Black", size: size)
     }

@@ -1,5 +1,5 @@
 //
-//  Fonts.swift
+//  CocoaFonts.swift
 //  CocoaFonts
 //
 //  Created by Heberti Almeida on 27/08/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Fonts: UIFont {
+class CocoaFonts: UIFont {
     internal override init() {
         super.init()
         
