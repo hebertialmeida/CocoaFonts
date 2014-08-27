@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9903C1D119AE281B00FEF3EB /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9903C1D019AE281B00FEF3EB /* Fonts.swift */; };
+		9903C1DF19AE3E3000FEF3EB /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1D419AE3E3000FEF3EB /* Lato-Black.ttf */; };
+		9903C1E019AE3E3000FEF3EB /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1D519AE3E3000FEF3EB /* Lato-BlackItalic.ttf */; };
+		9903C1E119AE3E3000FEF3EB /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1D619AE3E3000FEF3EB /* Lato-Bold.ttf */; };
+		9903C1E219AE3E3000FEF3EB /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1D719AE3E3000FEF3EB /* Lato-BoldItalic.ttf */; };
+		9903C1E319AE3E3000FEF3EB /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1D819AE3E3000FEF3EB /* Lato-Hairline.ttf */; };
+		9903C1E419AE3E3000FEF3EB /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1D919AE3E3000FEF3EB /* Lato-HairlineItalic.ttf */; };
+		9903C1E519AE3E3000FEF3EB /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1DA19AE3E3000FEF3EB /* Lato-Italic.ttf */; };
+		9903C1E619AE3E3000FEF3EB /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1DB19AE3E3000FEF3EB /* Lato-Light.ttf */; };
+		9903C1E719AE3E3000FEF3EB /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1DC19AE3E3000FEF3EB /* Lato-LightItalic.ttf */; };
+		9903C1E819AE3E3000FEF3EB /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1DD19AE3E3000FEF3EB /* Lato-Regular.ttf */; };
+		9903C1E919AE3E3000FEF3EB /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9903C1DE19AE3E3000FEF3EB /* OFL.txt */; };
+		9943160C19AE17DF00E6B41A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943160B19AE17DF00E6B41A /* AppDelegate.swift */; };
+		9943160E19AE17DF00E6B41A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943160D19AE17DF00E6B41A /* ViewController.swift */; };
+		9943161119AE17DF00E6B41A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9943160F19AE17DF00E6B41A /* Main.storyboard */; };
+		9943161319AE17DF00E6B41A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9943161219AE17DF00E6B41A /* Images.xcassets */; };
+		9943162A19AE191600E6B41A /* Lato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943162919AE191600E6B41A /* Lato.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9903C1D019AE281B00FEF3EB /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		9903C1D419AE3E3000FEF3EB /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		9903C1D519AE3E3000FEF3EB /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9903C1D619AE3E3000FEF3EB /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		9903C1D719AE3E3000FEF3EB /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9903C1D819AE3E3000FEF3EB /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		9903C1D919AE3E3000FEF3EB /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		9903C1DA19AE3E3000FEF3EB /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		9903C1DB19AE3E3000FEF3EB /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		9903C1DC19AE3E3000FEF3EB /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		9903C1DD19AE3E3000FEF3EB /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		9903C1DE19AE3E3000FEF3EB /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		9943160619AE17DF00E6B41A /* CocoaFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9943160A19AE17DF00E6B41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9943160B19AE17DF00E6B41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9943160D19AE17DF00E6B41A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9943161019AE17DF00E6B41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9943161219AE17DF00E6B41A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9943162919AE191600E6B41A /* Lato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lato.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9943160319AE17DF00E6B41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9903C1D219AE3E3000FEF3EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9903C1D319AE3E3000FEF3EB /* Lato */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9903C1D319AE3E3000FEF3EB /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				9903C1D419AE3E3000FEF3EB /* Lato-Black.ttf */,
+				9903C1D519AE3E3000FEF3EB /* Lato-BlackItalic.ttf */,
+				9903C1D619AE3E3000FEF3EB /* Lato-Bold.ttf */,
+				9903C1D719AE3E3000FEF3EB /* Lato-BoldItalic.ttf */,
+				9903C1D819AE3E3000FEF3EB /* Lato-Hairline.ttf */,
+				9903C1D919AE3E3000FEF3EB /* Lato-HairlineItalic.ttf */,
+				9903C1DA19AE3E3000FEF3EB /* Lato-Italic.ttf */,
+				9903C1DB19AE3E3000FEF3EB /* Lato-Light.ttf */,
+				9903C1DC19AE3E3000FEF3EB /* Lato-LightItalic.ttf */,
+				9903C1DD19AE3E3000FEF3EB /* Lato-Regular.ttf */,
+				9903C1DE19AE3E3000FEF3EB /* OFL.txt */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
+		};
+		994315FD19AE17DF00E6B41A = {
+			isa = PBXGroup;
+			children = (
+				9943162819AE18F200E6B41A /* CocoaFonts */,
+				9943160819AE17DF00E6B41A /* CocoaFontsDemo */,
+				9943160719AE17DF00E6B41A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9943160719AE17DF00E6B41A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9943160619AE17DF00E6B41A /* CocoaFonts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9943160819AE17DF00E6B41A /* CocoaFontsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9943160B19AE17DF00E6B41A /* AppDelegate.swift */,
+				9943160D19AE17DF00E6B41A /* ViewController.swift */,
+				9943160F19AE17DF00E6B41A /* Main.storyboard */,
+				9943161219AE17DF00E6B41A /* Images.xcassets */,
+				9943160919AE17DF00E6B41A /* Supporting Files */,
+			);
+			path = CocoaFontsDemo;
+			sourceTree = "<group>";
+		};
+		9943160919AE17DF00E6B41A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9943160A19AE17DF00E6B41A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9943162819AE18F200E6B41A /* CocoaFonts */ = {
+			isa = PBXGroup;
+			children = (
+				9903C1D219AE3E3000FEF3EB /* Fonts */,
+				9903C1D019AE281B00FEF3EB /* Fonts.swift */,
+				9943162919AE191600E6B41A /* Lato.swift */,
+			);
+			path = CocoaFonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9943160519AE17DF00E6B41A /* CocoaFonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9943162219AE17DF00E6B41A /* Build configuration list for PBXNativeTarget "CocoaFonts" */;
+			buildPhases = (
+				9943160219AE17DF00E6B41A /* Sources */,
+				9943160319AE17DF00E6B41A /* Frameworks */,
+				9943160419AE17DF00E6B41A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaFonts;
+			productName = CocoaFonts;
+			productReference = 9943160619AE17DF00E6B41A /* CocoaFonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		994315FE19AE17DF00E6B41A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CocoaFonts;
+				TargetAttributes = {
+					9943160519AE17DF00E6B41A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 9943160119AE17DF00E6B41A /* Build configuration list for PBXProject "CocoaFonts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 994315FD19AE17DF00E6B41A;
+			productRefGroup = 9943160719AE17DF00E6B41A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9943160519AE17DF00E6B41A /* CocoaFonts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9943160419AE17DF00E6B41A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9903C1E719AE3E3000FEF3EB /* Lato-LightItalic.ttf in Resources */,
+				9903C1E019AE3E3000FEF3EB /* Lato-BlackItalic.ttf in Resources */,
+				9903C1E319AE3E3000FEF3EB /* Lato-Hairline.ttf in Resources */,
+				9903C1E419AE3E3000FEF3EB /* Lato-HairlineItalic.ttf in Resources */,
+				9903C1E119AE3E3000FEF3EB /* Lato-Bold.ttf in Resources */,
+				9943161119AE17DF00E6B41A /* Main.storyboard in Resources */,
+				9903C1E619AE3E3000FEF3EB /* Lato-Light.ttf in Resources */,
+				9903C1E819AE3E3000FEF3EB /* Lato-Regular.ttf in Resources */,
+				9903C1E919AE3E3000FEF3EB /* OFL.txt in Resources */,
+				9903C1E219AE3E3000FEF3EB /* Lato-BoldItalic.ttf in Resources */,
+				9903C1DF19AE3E3000FEF3EB /* Lato-Black.ttf in Resources */,
+				9903C1E519AE3E3000FEF3EB /* Lato-Italic.ttf in Resources */,
+				9943161319AE17DF00E6B41A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9943160219AE17DF00E6B41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9903C1D119AE281B00FEF3EB /* Fonts.swift in Sources */,
+				9943160E19AE17DF00E6B41A /* ViewController.swift in Sources */,
+				9943162A19AE191600E6B41A /* Lato.swift in Sources */,
+				9943160C19AE17DF00E6B41A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9943160F19AE17DF00E6B41A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9943161019AE17DF00E6B41A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9943162019AE17DF00E6B41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9943162119AE17DF00E6B41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9943162319AE17DF00E6B41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CocoaFontsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = CocoaFonts;
+			};
+			name = Debug;
+		};
+		9943162419AE17DF00E6B41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CocoaFontsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = CocoaFonts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9943160119AE17DF00E6B41A /* Build configuration list for PBXProject "CocoaFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9943162019AE17DF00E6B41A /* Debug */,
+				9943162119AE17DF00E6B41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9943162219AE17DF00E6B41A /* Build configuration list for PBXNativeTarget "CocoaFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9943162319AE17DF00E6B41A /* Debug */,
+				9943162419AE17DF00E6B41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 994315FE19AE17DF00E6B41A /* Project object */;
+}
