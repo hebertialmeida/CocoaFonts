@@ -13,11 +13,11 @@ extension CocoaFonts {
         return UIFont(name: "Lato-Black", size: size)
     }
 
-    func LatoBlackItalicOfSize(size: CGFloat) -> UIFont {
+    func latoBlackItalicOfSize(size: CGFloat) -> UIFont {
         return UIFont(name: "Lato-BlackItalic", size: size)
     }
 
-    func LatoBoldOfSize(size: CGFloat) -> UIFont {
+    func latoBoldOfSize(size: CGFloat) -> UIFont {
         return UIFont(name: "Lato-Bold", size: size)
     }
 
@@ -25,12 +25,8 @@ extension CocoaFonts {
         return UIFont(name: "Lato-BoldItalic", size: size)
     }
 
-    func LatoItalicWithSize(size: CGFloat) -> UIFont {
+    func latoItalicOfSize(size: CGFloat) -> UIFont {
         return UIFont(name: "Lato-Italic", size: size)
-    }
-    
-    func latoBoldWithSize(size: CGFloat) -> UIFont {
-        return UIFont(name: "Lato-Bold", size: size)
     }
 
     func latoRegularOfSize(size: CGFloat) -> UIFont {

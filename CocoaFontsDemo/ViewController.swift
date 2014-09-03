@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         label.frame = CGRectMake(0, 0, self.view.frame.width, 100)
         label.center = self.view.center
         label.textAlignment = NSTextAlignment.Center
-        label.font = CocoaFonts().latoHairlineOfSize(70)
+        label.font = CocoaFonts().LatoBoldOfSize(70)
         self.view.addSubview(label)
         
 //        CocoaFonts.printFamilyNames()
